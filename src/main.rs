@@ -3,6 +3,7 @@ extern crate log;
 
 mod config;
 mod discord;
+mod format;
 mod irc;
 mod utils;
 
