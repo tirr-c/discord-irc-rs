@@ -1,7 +1,9 @@
 use anyhow::Result;
 use libirc::client::prelude::{Command, Message, Prefix};
 
-use crate::{config::IrcConfig, format::irc_msg_to_discord};
+use crate::config::IrcConfig;
+
+use crate::format::irc_msg_to_discord;
 
 pub async fn handle_irc(
     msg: Message,
